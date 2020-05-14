@@ -1,4 +1,4 @@
 /** JSDoc for this line */
-export async function mode() {
+export function mode() {
   return 0;
 }
