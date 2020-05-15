@@ -10,15 +10,20 @@ import { mode } from "https://raw.githubusercontent.com/denorg/starter/master/mo
 const result = mode();
 ```
 
-You can also run the script from the command line using:
+Alternatively, you can use it directly from the CLI by using deno run:
+
 ```bash
 deno run --allow-read https://raw.githubusercontent.com/denorg/starter/master/cli.ts <arguments>
 ```
-Or install using
+
+You can also install it globally using the following:
+
 ```bash
 deno install --allow-read -n starter https://raw.githubusercontent.com/denorg/starter/master/cli.ts
 ```
-and run with
+
+Then, the package is available to run:
+
 ```bash
 starter <arguments>
 ```
