@@ -10,6 +10,19 @@ import { mode } from "https://raw.githubusercontent.com/denorg/starter/master/mo
 const result = mode();
 ```
 
+You can also run the script from the command line using:
+```bash
+deno run --allow-read https://raw.githubusercontent.com/denorg/starter/master/cli.ts <arguments>
+```
+Or install using
+```bash
+deno install --allow-read -n starter https://raw.githubusercontent.com/denorg/starter/master/cli.ts
+```
+and run with
+```bash
+starter <arguments>
+```
+
 Required permissions:
 
 1. `--allow-read`
