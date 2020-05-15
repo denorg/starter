@@ -1,6 +1,8 @@
 # 🏁 Deno Starter
 
-Simply recursively read a directory in Deno.
+This is a starter tempalte for building Deno packages.
+
+[![Test CI](https://github.com/denorg/starter/workflows/Test%20CI/badge.svg)](https://github.com/denorg/starter/actions)
 
 ```ts
 import { mode } from "https://raw.githubusercontent.com/denorg/starter/master/mod.ts";
