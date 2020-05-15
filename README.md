@@ -1,6 +1,6 @@
 # 🏁 Deno Starter
 
-This is a starter tempalte for building Deno packages.
+This is a starter template for building Deno packages, with GitHub Actions CI, tests,and a CLI.
 
 [![Test CI](https://github.com/denorg/starter/workflows/Test%20CI/badge.svg)](https://github.com/denorg/starter/actions)
 
