@@ -1,4 +1,4 @@
-import { mode } from "./mod.ts"
+import { mode } from "./mod.ts";
 
 for (let arg of Deno.args) {
   console.log(arg, mode());
