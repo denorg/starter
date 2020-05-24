@@ -16,7 +16,7 @@ const result = mode();
 
 ### CLI with [DPX](https://github.com/denorg/dpx)
 
-After [installing DPX](https://github.com/denorg/dpx), you can directly use the CLI with `dpx` without having to install it:
+After [installing DPX](https://github.com/denorg/dpx), you can directly use the CLI using the `dpx` command:
 
 ```bash
 dpx --allow-read starter <arguments>
