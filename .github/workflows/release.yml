@@ -1,4 +1,4 @@
-name: Semantic Release
+name: Release CI
 on:
   push:
     branches:
@@ -7,8 +7,7 @@ jobs:
   release:
     name: Build, test, and release
     runs-on: ubuntu-18.04
-    # if: "!contains(github.event.head_commit.message, '[skip ci]')"
-    if: "contains(github.event.head_commit.message, '[release]')"
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - name: Checkout
         uses: actions/checkout@v2
