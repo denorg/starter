@@ -1,8 +1,13 @@
 # 🏁 Deno Starter
 
-This is a starter template for building Deno packages, with GitHub Actions CI, tests, and a CLI.
+This is a starter template for building Deno packages in TypeScript, with GitHub Actions-powered CI, tests, CLI, and Semantic Release on GitHub and npm.
 
-[![Test CI](https://github.com/denorg/starter/workflows/Test%20CI/badge.svg)](https://github.com/denorg/starter/actions)
+[![Deno CI](https://github.com/denorg/starter/workflows/Deno%20CI/badge.svg)](https://github.com/denorg/starter/actions)
+[![GitHub](https://img.shields.io/github/license/denorg/starter)](https://github.com/denorg/starter/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/denorg/starter)](https://github.com/denorg/starter/graphs/contributors)
+[![Made by Denorg](https://img.shields.io/badge/made%20by-denorg-0082fb)](https://github.com/denorg)
+[![TypeScript](https://img.shields.io/badge/types-TypeScript-blue)](https://github.com/denorg/starter)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 ## ⭐ Getting started
 
